@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.items{
+    padding: 5px;
+    border-radius: 1rem;
+    margin:1rem;
+    background-color: aliceblue;
+}
+
+.meal_img{
+    border-radius: 1rem;
+}
+
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: black;
+}
+
+p{
+    font-size: 1.2rem;
+    /* font-weight: 600; */
+    font-family: sans-serif;
+}
